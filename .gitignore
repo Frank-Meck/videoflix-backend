@@ -1,0 +1,177 @@
+
+# =====================================================
+# Videoflix Backend - Git Ignore
+# Django + Python + Windows + VS Code
+# =====================================================
+
+
+# =====================================================
+# Django
+# =====================================================
+
+*.log
+*.pot
+local_settings.py
+
+# Database
+db.sqlite3
+*.sqlite3
+db.sqlite3-journal
+*.db
+
+# User uploaded files
+media/
+uploads/
+
+# Collected static files
+staticfiles/
+static/
+
+
+# =====================================================
+# Python
+# =====================================================
+
+# Byte-compiled / optimized files
+*.py[cod]
+*$py.class
+__pycache__/
+
+# C extensions
+*.so
+
+# Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# =====================================================
+# Virtual Environments
+# =====================================================
+
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+
+# =====================================================
+# Environment Variables
+# =====================================================
+
+# Never commit secrets
+.env
+.env.*
+!.env.example
+
+
+# =====================================================
+# Tests / Coverage
+# =====================================================
+
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+*.cover
+
+
+# =====================================================
+# IDE / Editor
+# =====================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+
+# =====================================================
+# Operating System
+# =====================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+
+
+# =====================================================
+# Temporary files
+# =====================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+
+# =====================================================
+# Local files / Backups
+# =====================================================
+
+backup/
+backups/
+secrets/
+
+
+# =====================================================
+# Video / HLS generated files
+# =====================================================
+
+# Generated HLS playlists and segments
+*.m3u8
+*.ts
+*.m4s
+
+# Generated video files
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+
+
+# =====================================================
+# Documentation / Build
+# =====================================================
+
+docs/_build/
+
+
+# =====================================================
+# Docker
+# =====================================================
+
+docker-compose.override.yml
